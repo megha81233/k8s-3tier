@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "eks-k8s-project-01"
+    bucket = "k8sbucket12"
     key    = "k8/terraform.tfstate"
-    region = "us-east-2"
+    region = "ap-south-1"
   }
 
   required_version = ">= 1.6.3"
